@@ -4,7 +4,7 @@ setlocale(LC_ALL,"es_ES");
 
 include('config.php');
                         
-$idEvento         = $_POST['idEvento'];
+$idEvento         = $_POST['id'];
 $start            = $_REQUEST['start'];
 $fecha_inicio     = date('Y-m-d', strtotime($start)); 
 $end              = $_REQUEST['end']; 
